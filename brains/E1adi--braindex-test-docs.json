@@ -1,27 +1,17 @@
 {
   "schema": "brain-mesh/brain-card@3",
   "name": "E1adi/braindex-test-docs",
-  "displayName": "Mock second-brain",
+  "displayName": "Mocked docs for braindex test",
   "description": "test",
   "owners": [
     "E1adi"
   ],
-  "status": "archived",
+  "status": "active",
   "topics": [
     {
-      "name": "water",
-      "count": 4,
-      "coverage": "flour,active,active-starter,affects-extraction,banana,biggest,biggest-upgrade,bread"
-    },
-    {
-      "name": "yield",
-      "count": 4,
-      "coverage": "decrease,decrease-yield,dose,grind,increase,ratio,7-21-days,bean-freshness"
-    },
-    {
-      "name": "book-club",
+      "name": "min",
       "count": 3,
-      "coverage": "club,distributed-systems,garden,book,conflict-resolution,ddia,ddia-book,distributed"
+      "coverage": "1:00,1:30,8:00,add,add-starter,added-drip,banana,basil"
     },
     {
       "name": "distributed-systems",
@@ -29,24 +19,9 @@
       "coverage": "book-club,cap-theorem,club,conflict-resolution,ddia,ddia-book,distributed,finished"
     },
     {
-      "name": "good",
+      "name": "book-club",
       "count": 3,
-      "coverage": "angle-lenses,autumn-weather,clear,clear-autumn,coffee,creates-depth,depth,difference"
-    },
-    {
-      "name": "home-network",
-      "count": 3,
-      "coverage": "autumn-weather,cap-theorem,clear,clear-autumn,coffee,distributed-systems,good,good-conversation"
-    },
-    {
-      "name": "min",
-      "count": 3,
-      "coverage": "1:00,1:30,8:00,add,add-starter,added-drip,banana,basil"
-    },
-    {
-      "name": "nas",
-      "count": 3,
-      "coverage": "buy,cable,daily-encrypted,deny,devices,encrypted-backup,ends,ethernet"
+      "coverage": "club,distributed-systems,garden,book,conflict-resolution,ddia,ddia-book,distributed"
     },
     {
       "name": "ratio",
@@ -54,9 +29,34 @@
       "coverage": "grind,yield,coarser,decrease,decrease-temperature,decrease-yield,feed,finer"
     },
     {
+      "name": "water",
+      "count": 4,
+      "coverage": "flour,active,active-starter,affects-extraction,banana,biggest,biggest-upgrade,bread"
+    },
+    {
+      "name": "home-network",
+      "count": 3,
+      "coverage": "autumn-weather,cap-theorem,clear,clear-autumn,coffee,distributed-systems,good,good-conversation"
+    },
+    {
       "name": "shadows",
       "count": 3,
       "coverage": "add,add-energy,avoid,contrast,creates,creates-dramatic,diagonal-lines,dramatic"
+    },
+    {
+      "name": "good",
+      "count": 3,
+      "coverage": "angle-lenses,autumn-weather,clear,clear-autumn,coffee,creates-depth,depth,difference"
+    },
+    {
+      "name": "nas",
+      "count": 3,
+      "coverage": "buy,cable,daily-encrypted,deny,devices,encrypted-backup,ends,ethernet"
+    },
+    {
+      "name": "time",
+      "count": 3,
+      "coverage": "acid-production,benefits,bulk-fermentation,class-forecasting,cold-retard,consistently-underestimate,costs,dose"
     },
     {
       "name": "starter",
@@ -64,9 +64,9 @@
       "coverage": "acid-production,active,active-starter,bread,bread-flour,bulk,bulk-fermentation,cold-retard"
     },
     {
-      "name": "time",
-      "count": 3,
-      "coverage": "acid-production,benefits,bulk-fermentation,class-forecasting,cold-retard,consistently-underestimate,costs,dose"
+      "name": "yield",
+      "count": 4,
+      "coverage": "decrease,decrease-yield,dose,grind,increase,ratio,7-21-days,bean-freshness"
     }
   ],
   "chunkCount": 72,
@@ -77,13 +77,12 @@
     "pctStale": 0
   },
   "generator": "braindex/indexer",
-  "lastUpdated": "2026-11-26T11:55:49.229703Z",
-  "publicationRevision": 2,
+  "lastUpdated": "2026-11-27T03:13:59.312100Z",
+  "publicationRevision": 3,
   "indexing": {
     "state": "complete",
     "branch": "main",
     "targetCommit": "c395da7649555f3fbeff843f35619e686c6ecc29",
     "unresolvedFileCount": 0
-  },
-  "removedAt": "2026-11-27T02:47:00.431336Z"
+  }
 }
