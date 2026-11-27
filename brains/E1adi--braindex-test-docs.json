@@ -6,7 +6,7 @@
   "owners": [
     "E1adi"
   ],
-  "status": "active",
+  "status": "archived",
   "topics": [
     {
       "name": "water",
@@ -78,11 +78,12 @@
   },
   "generator": "braindex/indexer",
   "lastUpdated": "2026-11-26T11:55:49.229703Z",
-  "publicationRevision": 1,
+  "publicationRevision": 2,
   "indexing": {
     "state": "complete",
     "branch": "main",
     "targetCommit": "c395da7649555f3fbeff843f35619e686c6ecc29",
     "unresolvedFileCount": 0
-  }
+  },
+  "removedAt": "2026-11-27T02:47:00.431336Z"
 }
